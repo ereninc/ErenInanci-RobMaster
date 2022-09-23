@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class LevelModel : ScriptableObject
 {
-    public SwipeDirections[] LevelDatas;
+    public ObstacleDataModel[] ObstacleDatas;
 }

@@ -4,17 +4,11 @@ using UnityEngine.EventSystems;
 
 public class PointerController : ControllerModel
 {
+    [SerializeField] DraggableModel selectedArea;
     public static PointerController Instance;
-    public SwipeDirections CurrentDirection;
-    public float SwipeThreshold = 50f;
-    public UnityEvent OnSwipeLeft;
-    public UnityEvent OnSwipeRight;
-    public UnityEvent OnSwipeUp;
-    public UnityEvent OnSwipeDown;
-    public bool IsQuickTime;
 
-    private Vector2 onPointerDownPos;
-    private Vector2 onPointerUpPos;
+    private RaycastHit hit;
+    private Ray ray;
 
     public override void Initialize()
     {
@@ -27,15 +21,12 @@ public class PointerController : ControllerModel
         {
             Instance = this;
         }
-
-        IsQuickTime = false;
-        CurrentDirection = SwipeDirections.None;
     }
 
     public override void ControllerUpdate()
     {
         base.ControllerUpdate();
-        if (GameStateController.CurrentState == GameStates.Game && IsQuickTime)
+        if (GameStateController.CurrentState == GameStates.Game)
         {
             pointerUpdate();
         }
@@ -45,47 +36,28 @@ public class PointerController : ControllerModel
     {
         if (Input.GetMouseButtonDown(0))
         {
-            onPointerDownPos = Input.mousePosition;
-            onPointerUpPos = Input.mousePosition;
+            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (selectedArea = hit.transform.GetComponent<DraggableModel>()) { }
+            }
         }
+
+        if (Input.GetMouseButton(0))
+        {
+            if (selectedArea != null)
+            {
+                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit))
+                {
+                    selectedArea.transform.position = new Vector3(hit.point.x, hit.point.y, 0);
+                }
+            }
+        }
+
         if (Input.GetMouseButtonUp(0))
         {
-            onPointerDownPos = Input.mousePosition;
-            checkSwipe();
+            selectedArea = null;
         }
-    }
-
-    private void checkSwipe()
-    {
-        float deltaX = onPointerDownPos.x - onPointerUpPos.x;
-        if (Mathf.Abs(deltaX) > SwipeThreshold)
-        {
-            if (deltaX > 0)
-            {
-                OnSwipeRight.Invoke();
-                CurrentDirection = SwipeDirections.Right;
-            }
-            else if (deltaX < 0)
-            {
-                OnSwipeLeft.Invoke();
-                CurrentDirection = SwipeDirections.Left;
-            }
-        }
-
-        float deltaY = onPointerDownPos.y - onPointerUpPos.y;
-        if (Mathf.Abs(deltaY) > SwipeThreshold)
-        {
-            if (deltaY > 0)
-            {
-                OnSwipeUp.Invoke();
-                CurrentDirection = SwipeDirections.Up;
-            }
-            else if (deltaY < 0)
-            {
-                OnSwipeDown.Invoke();
-                CurrentDirection = SwipeDirections.Down;
-            }
-        }
-        onPointerUpPos = onPointerDownPos;
     }
 }

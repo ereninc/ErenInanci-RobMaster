@@ -19,7 +19,7 @@ public class GameStateController : ControllerModel
         {
             Instance = this;
         }
-        ChangeState(GameStates.Main);
+        ChangeState(GameStates.Game);
     }
 
     public void ChangeState(GameStates state)
