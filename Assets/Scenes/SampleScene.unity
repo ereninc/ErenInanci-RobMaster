@@ -264,6 +264,13 @@ MonoBehaviour:
   - {fileID: 244827996}
   - {fileID: 629050206}
   followOffset: {x: 0, y: -0.25, z: 0.5}
+  defaultPos:
+  - {x: 0.6220402, y: 0.5201889, z: -0.5}
+  - {x: -0.6352623, y: 0.5234212, z: -0.5}
+  - {x: -2.0316, y: 3.245691, z: -0.5}
+  - {x: 2.031602, y: 3.24607, z: -0.5}
+  - {x: 0.00001088616, y: 4.046316, z: -0.5}
+  - {x: 0.00001088615, y: 2.418788, z: -0.5}
 --- !u!1001 &59787782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1082,7 +1089,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244827995}
   m_LocalRotation: {x: -0.000000004168072, y: -7.6738615e-12, z: 3.178049e-14, w: 1}
-  m_LocalPosition: {x: 0.00001088616, y: 3.7963164, z: 0}
+  m_LocalPosition: {x: 0.00001088616, y: 4.283, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 1183727170}
@@ -2463,6 +2470,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChainLength: 2
   Target: {fileID: 273506125}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
+--- !u!1 &647830254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1082271958561512970, guid: fc05fe4fd70394ee2bb216645832da7c, type: 3}
+  m_PrefabInstance: {fileID: 1883091127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &647830255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647830254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 2
+  Target: {fileID: 629050206}
   Pole: {fileID: 0}
   Iterations: 10
   Delta: 0.001
@@ -4386,7 +4416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291314841}
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.00001088616, y: 4.046316, z: -0.50000006}
+  m_LocalPosition: {x: 0.00001088616, y: 4.583, z: -0.50000006}
   m_LocalScale: {x: 0.49429, y: 0.059415564, z: 0.49429}
   m_Children: []
   m_Father: {fileID: 1905982890}
@@ -4541,29 +4571,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
---- !u!1 &1317957287 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -1781356600409242780, guid: fc05fe4fd70394ee2bb216645832da7c, type: 3}
-  m_PrefabInstance: {fileID: 1883091127}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1317957289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317957287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ChainLength: 2
-  Target: {fileID: 244827996}
-  Pole: {fileID: 0}
-  Iterations: 10
-  Delta: 0.001
-  SnapBackStrength: 1
 --- !u!1 &1333089697
 GameObject:
   m_ObjectHideFlags: 0
@@ -7151,11 +7158,34 @@ Transform:
   m_Father: {fileID: 118617575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2037765304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2898355158428612036, guid: fc05fe4fd70394ee2bb216645832da7c, type: 3}
+  m_PrefabInstance: {fileID: 1883091127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2037765305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8700783698680967558, guid: fc05fe4fd70394ee2bb216645832da7c, type: 3}
   m_PrefabInstance: {fileID: 1883091127}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2037765306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037765304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChainLength: 3
+  Target: {fileID: 244827996}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
 --- !u!1 &2042620549
 GameObject:
   m_ObjectHideFlags: 0
