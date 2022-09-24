@@ -21,6 +21,47 @@ public class DraggableController : ControllerModel
         }
     }
 
+    public void OnDefaultPose()
+    {
+        for (int i = 0; i < draggables.Length; i++)
+        {
+            draggables[i].transform.DOLocalMove(defaultPos[i], 0.25f);
+        }
+    }
+
+    public void OnStateChange(int state) 
+    {
+        switch (state)
+        {
+            case 0:
+                break;
+            case 1:
+                onMoveState();
+                break;
+            case 2:
+                onDraggableState();
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void onMoveState() 
+    {
+        foreach (var item in draggables)
+        {
+            item.gameObject.SetActive(false);
+        }
+    }
+
+    private void onDraggableState()
+    {
+        foreach (var item in draggables)
+        {
+            item.gameObject.SetActive(true);
+        }
+    }
+
     private void followTargetPoints()
     {
         for (int i = 0; i < draggables.Length; i++)
@@ -31,14 +72,6 @@ public class DraggableController : ControllerModel
         for (int i = 0; i < followPoints.Length; i++)
         {
             followPoints[i].transform.position = draggables[i].transform.position + followOffset;
-        }
-    }
-
-    public void OnDefaultPose()
-    {
-        for (int i = 0; i < draggables.Length; i++)
-        {
-            draggables[i].transform.DOLocalMove(defaultPos[i], 0.25f);
         }
     }
 }

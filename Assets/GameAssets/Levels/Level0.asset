@@ -17,7 +17,7 @@ MonoBehaviour:
     Position: {x: 0, y: 1, z: 25}
   - Id: 1
     Position: {x: 0, y: 1, z: 50}
-  - Id: 0
+  - Id: 2
     Position: {x: 0, y: 1, z: 75}
-  - Id: 1
+  - Id: 3
     Position: {x: 0, y: 1, z: 100}

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ScreenModel : ObjectModel
 {
     [SerializeField] Animator animator;
+    [SerializeField] CharacterModel characterModel;
 
     public void Show()
     {
@@ -20,5 +21,12 @@ public class ScreenModel : ObjectModel
     public void OnNextLevel() 
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void OnLevelStart() 
+    {
+        GameStateController.Instance.ChangeState(GameStates.Game);
+        ScreenController.Instance.ShowScreen(1);
+        characterModel.SetState(1);
     }
 }
