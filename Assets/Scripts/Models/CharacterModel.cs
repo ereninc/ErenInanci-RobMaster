@@ -23,7 +23,7 @@ public class CharacterModel : ObjectModel
         switch (State)
         {
             case 0:
-                //Wait idle
+                //Wait in idle to start level
                 break;
             case 1:
                 moveForward();

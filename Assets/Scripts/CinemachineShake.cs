@@ -5,24 +5,24 @@ using Cinemachine;
 
 public class CinemachineShake : ObjectModel
 {
-    [SerializeField] CinemachineVirtualCamera camera;
+    [SerializeField] CinemachineVirtualCamera virtualCam;
     [SerializeField] float shakeTimer;
-    CinemachineBasicMultiChannelPerlin channel;
-    float _intensity = 0;
+    private CinemachineBasicMultiChannelPerlin channel;
+    private float intensity = 0;
 
     public override void Initialize()
     {
         base.Initialize();
-        channel = camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        channel = virtualCam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         channel.m_AmplitudeGain = 0f;
-        _intensity = 0;
+        intensity = 0;
     }
 
     public void Shake(float intensity, float time)
     {
 
-        _intensity = intensity;
-        channel.m_AmplitudeGain = _intensity;
+        this.intensity = intensity;
+        channel.m_AmplitudeGain = this.intensity;
         shakeTimer = time;
     }
 

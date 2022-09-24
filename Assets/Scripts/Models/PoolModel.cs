@@ -23,20 +23,4 @@ public class PoolModel : ObjectModel
 
         return default(T);
     }
-
-    private void getItemsFromChilds()
-    {
-        if (items == null)
-            items = new List<ObjectModel>();
-
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            ObjectModel item = transform.GetChild(i).GetComponent<ObjectModel>();
-            if (item != null)
-            {
-                item.SetDeactive();
-                items.Add(item);
-            }
-        }
-    }
 }

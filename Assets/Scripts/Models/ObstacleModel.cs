@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ObstacleModel : ObjectModel
 {
-    public int Id;
     [SerializeField] CharacterModel character;
+    public int Id;
 
     public override void Initialize()
     {
