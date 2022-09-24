@@ -312,6 +312,22 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 781983514}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
 --- !u!4 &50804561 stripped
@@ -494,6 +510,22 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 781983514}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
 --- !u!4 &239066667 stripped
@@ -594,6 +626,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722054248}
     m_Modifications:
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8586045459210519404, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
       propertyPath: character
       value: 
@@ -650,6 +698,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
 --- !u!4 &247423689 stripped
@@ -872,6 +936,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722054248}
     m_Modifications:
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8586045459210519404, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
       propertyPath: character
       value: 
@@ -928,6 +1008,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
 --- !u!4 &322540683 stripped
@@ -1086,6 +1182,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722054248}
     m_Modifications:
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8586045459210519404, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
       propertyPath: character
       value: 
@@ -1142,6 +1254,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
 --- !u!4 &355088965 stripped
@@ -1167,6 +1295,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1315530560}
     m_Modifications:
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8567468129663361444, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1223,6 +1367,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
 --- !u!4 &362409344 stripped
@@ -1589,6 +1749,7 @@ GameObject:
   - component: {fileID: 510017681}
   - component: {fileID: 510017680}
   - component: {fileID: 510017679}
+  - component: {fileID: 510017682}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -1671,6 +1832,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &510017682
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510017677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 1
+  m_FrequencyGain: 0.25
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &519102028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,6 +1896,7 @@ MonoBehaviour:
   - {fileID: 2128005899}
   - {fileID: 2042620551}
   - {fileID: 2124842260}
+  - {fileID: 1026594511}
   - {fileID: 291359324}
   - {fileID: 1333089699}
   - {fileID: 243589103}
@@ -1928,8 +2107,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.17
-  m_Height: 0.69
+  m_Radius: 0.14
+  m_Height: 0.55
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &622950574 stripped
@@ -1947,8 +2126,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.17
-  m_Height: 0.69
+  m_Radius: 0.14
+  m_Height: 0.55
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &629050205
@@ -2019,8 +2198,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.19
-  m_Height: 0.77
+  m_Radius: 0.13
+  m_Height: 0.56
   m_Direction: 1
   m_Center: {x: 0, y: 0.21, z: 0}
 --- !u!1001 &646747219
@@ -2082,6 +2261,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
 --- !u!4 &646747220 stripped
@@ -2382,7 +2569,7 @@ RectTransform:
   m_Children:
   - {fileID: 1863199966}
   m_Father: {fileID: 2118639275}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2591,8 +2778,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.19
-  m_Height: 0.77
+  m_Radius: 0.13
+  m_Height: 0.56
   m_Direction: 1
   m_Center: {x: 0, y: 0.21, z: 0}
 --- !u!1 &781983512
@@ -2691,7 +2878,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2118639275}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2815,6 +3002,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1315530560}
     m_Modifications:
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8567468129663361444, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2871,6 +3074,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
 --- !u!4 &845491524 stripped
@@ -2948,6 +3167,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
 --- !u!4 &900684052 stripped
@@ -3025,6 +3252,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
 --- !u!4 &902334690 stripped
@@ -3152,6 +3387,115 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941148923}
   m_CullTransparentMesh: 1
+--- !u!1 &943851440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943851441}
+  - component: {fileID: 943851443}
+  - component: {fileID: 943851442}
+  - component: {fileID: 943851444}
+  - component: {fileID: 943851445}
+  m_Layer: 5
+  m_Name: FailEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &943851441
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943851440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2118639275}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &943851442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943851440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &943851443
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943851440}
+  m_CullTransparentMesh: 1
+--- !u!95 &943851444
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943851440}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51ffb364bb2b46240b1a39022724fe8c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &943851445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943851440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5458cfbd81a9a2340bbba2df6ea60281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 943851444}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3230,7 +3574,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.24878109, y: 0.000000029063282, z: -0.0000000074651, w: 0.96855974}
+  m_LocalRotation: {x: 0.24878109, y: 0.00000002906602, z: -0.000000007465803, w: 0.96855974}
   m_LocalPosition: {x: 0, y: 7.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3312,6 +3656,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1315530560}
     m_Modifications:
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8567468129663361444, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3368,6 +3728,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
 --- !u!114 &980982799 stripped
@@ -3438,6 +3814,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1315530560}
     m_Modifications:
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8567468129663361444, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3494,6 +3886,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
 --- !u!4 &996064196 stripped
@@ -3553,6 +3961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1026594509}
   - component: {fileID: 1026594510}
+  - component: {fileID: 1026594511}
   m_Layer: 0
   m_Name: GameplayCam
   m_TagString: Untagged
@@ -3567,7 +3976,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026594508}
-  m_LocalRotation: {x: -0, y: -1.0658141e-14, z: 5.3290705e-15, w: 1}
+  m_LocalRotation: {x: -0, y: 1.2470025e-11, z: -6.8580697e-12, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3610,6 +4019,20 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 510017678}
+--- !u!114 &1026594511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026594508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f761dcb99671d9e47aaa273a057ebbb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1026594510}
+  shakeTimer: 0.25
 --- !u!1001 &1059331317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3669,6 +4092,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
 --- !u!4 &1059331318 stripped
@@ -3964,7 +4395,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.38
   m_Center: {x: 0, y: 0.37, z: 0}
 --- !u!1 &1315530559
 GameObject:
@@ -4205,6 +4636,22 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 781983514}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
 --- !u!4 &1359190411 stripped
@@ -4739,6 +5186,22 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 781983514}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
 --- !u!4 &1542531788 stripped
@@ -4954,7 +5417,7 @@ RectTransform:
   m_Children:
   - {fileID: 1476109861}
   m_Father: {fileID: 2118639275}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4982,6 +5445,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722054248}
     m_Modifications:
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8586045459210519404, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
       propertyPath: character
       value: 
@@ -5038,6 +5517,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
 --- !u!4 &1605734588 stripped
@@ -6056,6 +6551,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 943851441}
   - {fileID: 1584036031}
   - {fileID: 798393577}
   - {fileID: 708174602}
@@ -6114,6 +6610,7 @@ MonoBehaviour:
   virtualCameras:
   - {fileID: 1026594510}
   - {fileID: 1133273076}
+  cinemachineShake: {fileID: 1026594511}
 --- !u!1 &2128005897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6167,6 +6664,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 722054248}
     m_Modifications:
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742966741291714, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 112742967153438492, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8586045459210519404, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
       propertyPath: character
       value: 
@@ -6223,6 +6736,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460230059388, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8586045460446359099, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17cad57af9e5bd7468ad12a974eb1301, type: 3}
 --- !u!1001 &126663763635468313
@@ -6232,6 +6761,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1315530560}
     m_Modifications:
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935546789899, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 23233935707426261, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     - target: {fileID: 8567468129663361444, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6288,6 +6833,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130648673522, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8567468130699827125, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de60110815cbb104bb1e9af80d3a4808, type: 3}
 --- !u!1001 &6062475262727828324
@@ -6353,6 +6914,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 6062475263632197988, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04b459822b34404d84a3dafe1a91067, type: 3}
 --- !u!1001 &8554387359958021445
@@ -6418,6 +6987,22 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 781983514}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361037104819, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: failEffect
+      value: 
+      objectReference: {fileID: 943851445}
+    - target: {fileID: 8554387361086680564, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
+      propertyPath: cameraController
+      value: 
+      objectReference: {fileID: 2124842260}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0de9e05ec36ff1642bb6d379320bca82, type: 3}
 --- !u!4 &8554387361231385600 stripped

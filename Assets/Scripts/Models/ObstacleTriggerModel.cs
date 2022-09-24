@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class ObstacleTriggerModel : ObjectModel
 {
+    [SerializeField] FailEffect failEffect;
+    [SerializeField] CameraController cameraController;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Character"))
         {
-            Debug.Log("COLLIDED WITH CHARACTER BODY PART");
+            failEffect.Show();
+            cameraController.Shake();
         }
     }
 }

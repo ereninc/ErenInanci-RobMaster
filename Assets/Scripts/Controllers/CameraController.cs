@@ -6,7 +6,8 @@ using Cinemachine;
 public class CameraController : ObjectModel
 {
     [SerializeField] CinemachineVirtualCamera[] virtualCameras;
-    CameraStates activeCamState;
+    [SerializeField] CinemachineShake cinemachineShake;
+    private CameraStates activeCamState;
 
     public override void Initialize()
     {
@@ -14,7 +15,6 @@ public class CameraController : ObjectModel
         activeCamState = CameraStates.GamePlay;
         virtualCameras[(int)activeCamState].gameObject.SetActive(true);
     }
-
 
     public void ChangeCamera(CameraStates cameraStates)
     {
@@ -26,6 +26,11 @@ public class CameraController : ObjectModel
         virtualCameras[(int)activeCamState].gameObject.SetActive(false);
         activeCamState = cameraStates;
         virtualCameras[(int)activeCamState].gameObject.SetActive(true);
+    }
+
+    public void Shake()
+    {
+        cinemachineShake.Shake(3f, 0.25f);
     }
 }
 
