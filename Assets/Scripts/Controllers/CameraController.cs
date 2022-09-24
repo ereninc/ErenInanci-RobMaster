@@ -31,7 +31,7 @@ public class CameraController : ObjectModel
 
 public enum CameraStates
 {
-    Start,
+//    Start,
     GamePlay,
     End
 }

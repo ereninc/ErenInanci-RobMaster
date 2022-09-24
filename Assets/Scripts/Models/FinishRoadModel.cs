@@ -5,6 +5,8 @@ using UnityEngine;
 public class FinishRoadModel : ObjectModel
 {
     [SerializeField] CharacterModel characterModel;
+    [SerializeField] CameraController camController;
+    [SerializeField] SafeModel safeModel;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -12,7 +14,9 @@ public class FinishRoadModel : ObjectModel
         {
             GameStateController.Instance.ChangeState(GameStates.End);
             ScreenController.Instance.ShowScreen(2);
-            //characterModel.OnLevelFinish();
+            characterModel.OnLevelFinish();
+            camController.ChangeCamera(CameraStates.End);
+            safeModel.OnFinish();
         }
     }
 }
