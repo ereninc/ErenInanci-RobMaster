@@ -11,6 +11,7 @@ public class LevelController : ControllerModel
     public static LevelController Controller;
     public List<LevelModel> Levels;
     public LevelModel LoadedLevel;
+    [SerializeField] FinishRoadModel finishRoad;
 
     public override void Initialize()
     {
@@ -46,7 +47,6 @@ public class LevelController : ControllerModel
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
         }
-
         LoadedLevel = null;
 #endif
     }

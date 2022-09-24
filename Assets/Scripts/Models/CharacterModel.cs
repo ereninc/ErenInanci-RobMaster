@@ -48,6 +48,12 @@ public class CharacterModel : ObjectModel
         setSpeed(State);
     }
 
+    public void OnLevelFinish()
+    {
+        OnDefaultPose();
+
+    }
+
     private void moveForward()
     {
         movePosition = new Vector3(0, 0, transform.position.z + ((1 + extraForwardSpeed) * forwardSpeed * Time.deltaTime));
@@ -66,7 +72,7 @@ public class CharacterModel : ObjectModel
         }
         else
         {
-            forwardSpeed = maxForwardSpeed * 0.25f;
+            forwardSpeed = maxForwardSpeed * 0.15f;
         }
     }
 }

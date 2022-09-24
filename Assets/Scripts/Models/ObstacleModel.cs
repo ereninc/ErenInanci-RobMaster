@@ -21,4 +21,12 @@ public class ObstacleModel : ObjectModel
             character.SetState(2);
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            character.SetState(1);
+        }
+    }
 }

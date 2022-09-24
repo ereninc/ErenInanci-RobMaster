@@ -48,6 +48,7 @@ public class DraggableController : ControllerModel
 
     private void onMoveState() 
     {
+        OnDefaultPose();
         foreach (var item in draggables)
         {
             item.gameObject.SetActive(false);
